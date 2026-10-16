@@ -20,3 +20,10 @@ To run these tutorials, [Jupyter notebook](https://jupyter.org/install) must be 
 
 - Import a TensorFlow classifier and obtain its predictions on a section of time series data
 - Compute predictions made from an ensemble of classifiers
+
+### 5. Spatial EWS (tutorial_spatial.ipynb)
+
+- Build a spatial weights matrix for a regular grid with `lattice_weights`
+- Compute Moran's I and its permutation p-value at every time point with `SpatialEWS`
+- Measure the trend of Moran's I with Kendall tau
+- Tell critical slowing down apart from a strengthening spatial pattern with the trend-control recipe

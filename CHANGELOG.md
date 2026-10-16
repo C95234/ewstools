@@ -24,6 +24,10 @@ This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.htm
   own permutations, and `transition` accepts 0 and timestamps.
 - 43 new tests, counting parametrised cases (`tests/test_spatial.py`), 0
   regressions on the existing suite.
+- **Tutorial 5** (`tutorials/tutorial_spatial.ipynb`): spatial early warning signals
+  on a grid of coupled bistable units approaching a fold, with a control without
+  approach and the trend-control recipe on a strengthening-gradient field (the
+  detrended residuals are U-shaped at the ends of the record; the tutorial says so).
 
 ## [2.1.3] — 2026-07-28
 
